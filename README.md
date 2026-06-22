@@ -6,6 +6,18 @@ An inky botanical color scheme for Obsidian. Warm paper backgrounds, botanical i
 
 ![Buisson Dark](screenshot.png)
 
+## Installation
+
+1. Open Obsidian → **Settings → Appearance**
+2. Under **Themes**, click **Manage**
+3. Search for **Buisson** and click **Install and use**
+
+To switch between dark and light: **Settings → Appearance → Base color scheme**
+
+## Customisation
+
+No Style Settings plugin required. The theme works out of the box with Obsidian's built-in dark and light modes.
+
 ## Features
 
 - Dark and light variants
