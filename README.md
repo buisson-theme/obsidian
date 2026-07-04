@@ -1,40 +1,76 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/buisson-theme/.github/main/profile/icon.png" width="96" alt="Buisson logo" />
+
 # Buisson
 
-> *From the French — a thicket, a tangle of wild growth at the edge of a path.*
+*Damp moss, warm parchment, and the kind of light that makes you want to stay.*
 
-An inky botanical color scheme for Obsidian. Warm paper backgrounds, botanical ink accents, WCAG-calibrated contrasts.
+[Palette](#palette) · [Installation](#installation) · [Accessibility](#accessibility)
 
-![Buisson Dark](screenshot.png)
+<img width="100%" src="https://raw.githubusercontent.com/buisson-theme/buisson-obsidian/main/assets/separator.png" />
+
+<img src="https://raw.githubusercontent.com/buisson-theme/buisson-obsidian/main/assets/obsidian-preview.png" alt="Buisson for Obsidian" width="100%" />
+
+</div>
+
+---
 
 ## Installation
 
-Open Obsidian → **Settings → Appearance → Themes → Manage** → search "Buisson" → Install and use.
+**Via Obsidian theme store**
 
-To switch between dark and light: **Settings → Appearance → Base color scheme**.
+1. Open Obsidian
+2. Go to **Settings → Appearance → Themes → Manage**
+3. Search for **"Buisson"**
+4. Click **Install and use**
+
+To toggle dark/light: **Settings → Appearance → Base color scheme**
+
+Or install directly: [`obsidian://show-theme?name=Buisson`](obsidian://show-theme?name=Buisson)
+
+**Manuellement**
+
+```sh
+git clone https://github.com/buisson-theme/buisson-obsidian.git
+mkdir -p path/to/vault/.obsidian/themes/Buisson
+cp buisson-obsidian/theme.css path/to/vault/.obsidian/themes/Buisson/theme.css
+```
+
+Then reload Obsidian and select **Buisson** under Settings → Appearance → Themes.
+
+---
+
+## Palette
+
+| Color | Dark | Light | Usage |
+|---|---|---|---|
+| ![](https://img.shields.io/badge/-%23d04550-d04550?style=flat-square) hibiscus | `#d04550` | `#c02040` | Headings · callout titles |
+| ![](https://img.shields.io/badge/-%236aaa44-6aaa44?style=flat-square) sage | `#6aaa44` | `#387008` | Checked items · success states |
+| ![](https://img.shields.io/badge/-%232ea882-2ea882?style=flat-square) river-moss | `#2ea882` | `#096868` | Tags · links |
+| ![](https://img.shields.io/badge/-%234878ba-4878ba?style=flat-square) slate-sky | `#4878ba` | `#1860a8` | Callout borders · notes |
+| ![](https://img.shields.io/badge/-%23b070d0-b070d0?style=flat-square) thistle | `#b070d0` | `#6028a8` | Operators · special syntax |
+| ![](https://img.shields.io/badge/-%23c87838-c87838?style=flat-square) ochre | `#c87838` | `#a04810` | Inline code · emphasis |
+
+---
 
 ## Features
 
 - Dark and light variants
-- 6 botanical accent colors with semantic roles
-- WCAG AA contrast on all accents
-- Primary text: 11.55:1 AAA (dark) / 15.15:1 AAA (light)
-- Works out of the box — no Style Settings plugin required
+- Works out of the box, no Style Settings plugin required
+- WCAG AA on all accents
 
-## Palette
+---
 
-| Name | Dark | Light | Role |
-|------|------|-------|------|
-| Hibiscus | `#d04550` | `#c02040` | Keywords, booleans, exceptions |
-| Sage | `#6aaa44` | `#387008` | Functions, method calls |
-| River Moss | `#2ea882` | `#096868` | Types, classes, interfaces |
-| Slate Sky | `#4878ba` | `#1860a8` | Numbers, numeric constants |
-| Thistle | `#b070d0` | `#6028a8` | Operators, decorators |
-| Ochre | `#c87838` | `#a04810` | Strings, template literals |
+## Accessibility
 
-## Source
+- Primary text: **11.55:1 AAA** (dark) · **15.15:1 AAA** (light)
+- All 6 accents: WCAG AA or above
 
-Part of the [buisson](https://github.com/Adriusops/buisson) monorepo.
+---
 
-## License
+## Part of the Buisson ecosystem
 
-MIT — see [LICENSE](LICENSE)
+[github.com/buisson-theme](https://github.com/buisson-theme)
+
+MIT · buisson-theme
