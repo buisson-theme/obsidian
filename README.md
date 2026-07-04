@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/buisson-theme/.github/main/profile/icon.png" width="96" alt="Buisson logo" />
+<img src="https://raw.githubusercontent.com/buisson-theme/buisson-obsidian/main/logo-buisson.png" width="96" alt="Buisson logo" />
 
 # Buisson
 
