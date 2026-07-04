@@ -8,7 +8,7 @@
 
 [Palette](#palette) · [Installation](#installation) · [Accessibility](#accessibility)
 
-<img width="100%" src="https://raw.githubusercontent.com/buisson-theme/buisson-obsidian/main/assets/separator.png" />
+<img width="50%" src="https://raw.githubusercontent.com/buisson-theme/buisson-obsidian/main/assets/separator.png" />
 
 <img src="https://raw.githubusercontent.com/buisson-theme/buisson-obsidian/main/assets/obsidian-preview.png" alt="Buisson for Obsidian" width="100%" />
 
